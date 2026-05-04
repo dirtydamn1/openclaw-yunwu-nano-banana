@@ -1,5 +1,5 @@
 {
-  "name": "@dirtydamn/openclaw-yunwu-nano-banana",
+  "name": "@dirtydamn1/openclaw-yunwu-nano-banana",
   "version": "1.0.0",
   "description": "OpenClaw native image generation plugin based on YunWu API NanoBanana",
   "private": true,

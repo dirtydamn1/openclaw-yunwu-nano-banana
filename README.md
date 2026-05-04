@@ -36,7 +36,7 @@ openclaw plugins install .
 ```bash
 openclaw configure
 # 选择Plugins
-# 选择@dirtydamn/openclaw-yunwu-nano-banana
+# 选择@dirtydamn1/openclaw-yunwu-nano-banana
 # 按要求输入apiKey和model
 ```
 
