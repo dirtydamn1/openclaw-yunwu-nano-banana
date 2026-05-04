@@ -1,13 +1,13 @@
 {
-  "name": "@dirtydamn1/openclaw-yunwu-nano-banana",
+  "name": "openclaw-yunwu-nano-banana",
   "version": "1.0.0",
   "description": "OpenClaw native image generation plugin based on YunWu API NanoBanana",
-  "private": true,
+  "private": false,
   "type": "module",
-  "repository": "https://github.com/dirtydamn1/openclaw-yunwu-nano-banana",
-  "keywords": ["openclaw", "yunwu", "image", "generate", "plugin"],
-  "author": "dirtydamn",
-  "license": "MIT",
+  "scripts": {
+    "check": "npx tsc --noEmit",
+    "build": "npx tsc"
+  },
   "openclaw": {
     "extensions": [
       "./src/index.ts"
@@ -21,6 +21,10 @@
       "pluginSdkVersion": "2026.3.24-beta.2"
     }
   },
+  "repository": "https://github.com/dirtydamn1/openclaw-yunwu-nano-banana",
+  "keywords": ["openclaw", "yunwu", "image", "generate", "plugin"],
+  "author": "dirtydamn",
+  "license": "MIT",
   "devDependencies": {
     "openclaw": "^2026.4.29",
     "@types/node": "^25.6.0",

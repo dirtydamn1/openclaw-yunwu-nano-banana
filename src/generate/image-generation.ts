@@ -144,7 +144,7 @@ export function buildImageGenerationProvider(api: OpenClawPluginApi): ImageGener
             },
           ],
           generationConfig: {
-            responseModalities: ["TEXT", "IMAGE"],
+            responseModalities: ["IMAGE"],
             ...(Object.keys(resolvedImageConfig).length > 0
               ? { imageConfig: resolvedImageConfig }
               : {}),
@@ -176,7 +176,7 @@ export function buildImageGenerationProvider(api: OpenClawPluginApi): ImageGener
           })
           .filter((entry): entry is NonNullable<typeof entry> => entry !== null);
         if (images.length === 0) {
-          throw new Error("Google image generation response missing image data");
+          throw new Error("yunwu api generate image response missing image data");
         }
         return {
           images,

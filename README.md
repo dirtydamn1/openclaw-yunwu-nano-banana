@@ -13,11 +13,19 @@
 
 ## 安装步骤
 
+- 直接安装
+
+```bash
+openclaw plugins install openclaw-yunwu-nano-banana
+```
+
 - 从源码安装
 
 ```bash
 git clone https://github.com/dirtydamn1/openclaw-yunwu-nano-banana.git
 cd openclaw-yunwu-nano-banana
+pnpm install
+pnpm build
 openclaw plugins install .
 ```
 
@@ -36,7 +44,7 @@ openclaw plugins install .
 ```bash
 openclaw configure
 # 选择Plugins
-# 选择@dirtydamn1/openclaw-yunwu-nano-banana
+# 选择openclaw-yunwu-nano-banana
 # 按要求输入apiKey和model
 ```
 
