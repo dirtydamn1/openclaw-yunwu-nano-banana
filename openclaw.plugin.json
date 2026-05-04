@@ -18,8 +18,7 @@
       "apiKey": {
         "type": "string"
       }
-    },
-    "required": ["apiKey"]
+    }
   },
   "uiHints": {
     "apiKey": { 
