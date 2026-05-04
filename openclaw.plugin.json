@@ -1,0 +1,35 @@
+{
+  "id": "yunwu-nano-banana",
+  "activation": {
+    "onStartup": false
+  },
+  "enabledByDefault": true,
+  "contracts": {
+    "imageGenerationProviders": ["yunwu-nano-banana"]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "model": {
+        "type": "string",
+        "default": "gemini-3.1-flash-image-preview"
+      },
+      "apiKey": {
+        "type": "string"
+      }
+    },
+    "required": ["apiKey"]
+  },
+  "uiHints": {
+    "apiKey": { 
+      "label": "YunWu Nano Banana API Key",
+      "help": "Get api key from https://yunwu.ai",
+      "placeholder": "sk-..."
+    },
+    "model": { 
+      "label": "YunWu Nano Banana Model",
+      "help": "Default gemini-3.1-flash-image-preview"
+    }
+  }
+}
