@@ -11,9 +11,13 @@
 
 > OpenClaw版本不低于**v2026.3.24**
 
-## 安装说明
+## 安装步骤
+
+- 从源码安装
 
 ```bash
+git clone https://github.com/dirtydamn1/openclaw-yunwu-nano-banana.git
+cd openclaw-yunwu-nano-banana
 openclaw plugins install .
 ```
 
